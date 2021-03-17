@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;700;900&display=swap');
+
+body {
+    background: rgb(68, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Noto Sans KR";
+    color: black;
+  }
+  
+a {
+  vertical-align:baseline;
+  background:transparent;
+  text-decoration-line: none;
+}
+
+a:link    { color: black; }
+a:visited { color: black; }
+
+img {
+  width: 80px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.contents {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.icon img {
+    width: 15%;
+    border-radius: 50%;
+  }
+
+.seminar img {
+  width: 80px;
+  border-radius: 1%;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  background: white;
+  text-align: center;
+  width: 200px;
+  margin-top: 15px;
+  padding: 10px;
+}
+  
+.button:hover {
+  background-color: rgb(185, 185, 185);
+}
+  
