@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;700;900&display=swap');
 
 body {
-    background: rgb(68, 68, 68);
+    background: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +23,10 @@ img {
   width: 80px;
 }
 
+.buttons img {
+  width: 30px;
+}
+
 .container {
   width: 100%;
   display: flex;
@@ -32,13 +36,13 @@ img {
 }
 
 .title {
-  color: white;
+  color: gray;
   font-size: 25px;
   font-weight: 700;
 }
 
 .contents {
-  color: white;
+  color: gray;
   font-size: 15px;
   font-weight: 400;
 }
@@ -58,18 +62,60 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
   flex-direction: column;
 }
 
 .button {
   background: white;
+  font-weight: bold;
   text-align: center;
-  width: 200px;
+  display: flex;
+  width: 300px;
+  height: 50px;
   margin-top: 15px;
   padding: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5); 
 }
-  
+
 .button:hover {
   background-color: rgb(185, 185, 185);
 }
-  
+
+.link.btn {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.link div {
+  align-items: center;
+}
+
+
+.coop {
+  background-color: white;
+}
+
+.blog {
+  background-color: #01c73c;
+  color: white;
+}
+
+.youtube {
+  background-color: #eb3824;
+  color: white;
+}
+
+.kakao {
+  background-color: #fae100;
+  color: gray;
+}
+
+.sheet {
+  background-color: #0182e7;
+  color: white;
+}
